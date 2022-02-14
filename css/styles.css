@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #3d3434;
+  background-color: #ecebe8;
+}
+
+section {
+  height: 100vh;
+  padding: 25px 45px;
+}
+
+h1,
+h2 {
+  font-size: 130px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2 {
+  float: right;
+  margin-top: 50px;
+}
+
+header {
+  font-weight: 400;
+  display: flex;
+  padding: 15px 30px;
+}
+
+header > p {
+  margin: 0 auto;
+}
+
+.work-link {
+  margin-right: 15px;
+}
+
+.header-links a {
+  text-decoration: none;
+}
+
+.left-side,
+h2 {
+  line-height: 0.9;
+}
+
+.block-text {
+  font-weight: 500;
+  display: block;
+  margin-top: 0;
+}
+
+.cris-img {
+  max-width: 480px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.about-text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  font-size: 22px;
+  width: 27%;
+  text-align: justify;
+}

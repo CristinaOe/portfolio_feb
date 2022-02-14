@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/8c5e1878d1.js"
       crossorigin="anonymous"
@@ -13,26 +22,33 @@
   <body>
     <header class="header">
       <p>Based in Berlin</p>
-      <a href="#">Work</a>
-      <a href="#">Contact</a>
+      <div class="header-links">
+        <a href="#" class="work-link">Work</a>
+        <a href="#">Contact</a>
+      </div>
     </header>
-    <main>
-      <div class="left-side">
-        <h1>Frontend Developer</h1>
-        <img
-          src="images/cris-helados.jpg"
-          alt="a photo of Cristina with an ice cream in each hand"
-        />
-      </div>
-      <div class="right-side">
-        <p>
-          I am fascinated by all that can be achieved by coding. I love the
-          moment of finding the solution to that code that causes you a
-          headache. I am constantly learning.
-        </p>
-        <h2>Cristina Oechsle</h2>
-      </div>
-    </main>
+    <section>
+      <main>
+        <div class="left-side">
+          <h1>Frontend <span class="block-text">Developer</span></h1>
+          <img
+            src="images/cris-helados.jpg"
+            alt="a photo of Cristina with an ice cream in each hand"
+            class="cris-img"
+          />
+        </div>
+        <div class="right-side">
+          <p class="about-text">
+            I am fascinated by all that can be achieved by coding. I love the
+            moment of finding the solution to that code that causes you a
+            headache. I am constantly learning.
+          </p>
+          <h2 class="dev-name">
+            Cristina <span class="block-text">Oechsle</span>
+          </h2>
+        </div>
+      </main>
+    </section>
     <section class="projects">
       <h3>My work</h3>
       <!-- projects -->
