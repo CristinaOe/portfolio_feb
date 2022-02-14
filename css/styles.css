@@ -6,9 +6,17 @@
   background-color: #ecebe8;
 }
 
-section {
+.main-section {
   height: 100vh;
-  padding: 25px 45px;
+}
+
+.project-section {
+  height: 90vh;
+}
+
+.main-section,
+.project-section {
+  padding: 0px 45px;
 }
 
 h1,
@@ -20,7 +28,13 @@ h2 {
 
 h2 {
   float: right;
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 100px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 header {
@@ -65,4 +79,82 @@ h2 {
   font-size: 22px;
   width: 27%;
   text-align: justify;
+}
+
+.arrow {
+  display: flex;
+  position: absolute;
+  top: 85%;
+  gap: 30px;
+}
+
+.projects-text {
+  margin-top: -30px;
+  font-family: "Parisienne", cursive;
+  font-size: 40px;
+}
+
+/* projects */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.boxes {
+  border: 5px solid white;
+  width: 285px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 0 10px silver;
+  transition: 300ms all;
+  background-size: cover;
+  background-position: center;
+  background-color: #334145;
+}
+
+.box-content h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.box-content {
+  background-color: #fff;
+  padding: 10px 5px;
+  text-align: justify;
+  width: 100%;
+  transition: 300ms all;
+}
+
+.boxes:hover {
+  transform: scale(1.1);
+}
+
+/* footer */
+
+footer {
+  padding: 12px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  gap: 30px;
+  justify-content: right;
+  text-transform: uppercase;
+  bottom: 0px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.social-links .fa-linkedin {
+  margin-right: 20px;
 }
