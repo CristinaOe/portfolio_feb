@@ -65,4 +65,10 @@
     font-size: 10px;
     padding-right: 15px;
   }
+  .social-links .fa-linkedin {
+    margin: 0;
+  }
+  .footer-links {
+    margin-right: 15px;
+  }
 }
