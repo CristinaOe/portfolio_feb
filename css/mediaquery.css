@@ -70,7 +70,8 @@
     margin: 0;
   }
 
-  .social-links .footer-links {
+  .social-links,
+  .footer-links {
     margin-right: 15px;
   }
 }
