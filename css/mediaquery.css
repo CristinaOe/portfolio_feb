@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
   .main-section,
   .project-section {
-    padding: 0px 25px;
+    padding: 0px 15px;
   }
 
   h1,
@@ -13,16 +13,33 @@
   .header {
     font-size: 11px;
     padding-right: 25px;
+    justify-content: space-between;
+  }
+
+  header > p {
+    margin: 0;
+    margin-left: 15px;
   }
   .cris-img {
     max-width: 200px;
+    margin-left: 0;
   }
 
   .about-text {
+    margin-right: 15px;
     font-size: 11px;
-    max-width: 38%;
+    max-width: 45%;
     top: 30%;
-    left: 60%;
+    left: 55%;
+  }
+
+  .arrow {
+    top: 80%;
+    font-size: 15px;
+  }
+
+  .projects-text {
+    font-size: 30px;
   }
 
   /* cards */
