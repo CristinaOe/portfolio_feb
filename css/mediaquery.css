@@ -63,11 +63,13 @@
   /* footer */
   footer {
     font-size: 10px;
-    padding-right: 15px;
+    padding: 0;
   }
   .social-links .fa-linkedin {
     margin: 0;
   }
+
+  .social-links,
   .footer-links {
     margin-right: 15px;
   }
