@@ -97,50 +97,6 @@ h2 {
   font-size: 40px;
 }
 
-/* projects */
-/* 
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.boxes {
-  border: 5px solid white;
-  width: 285px;
-  height: 360px;
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  align-items: center;
-  justify-content: flex-end;
-  box-shadow: 0 0 10px silver;
-  transition: 300ms all;
-  background-size: cover;
-  background-position: center;
-  background-color: #334145;
-}
-
-.box-content h4 {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.box-content {
-  background-color: #fff;
-  padding: 10px 5px;
-  text-align: justify;
-  width: 100%;
-  transition: 300ms all;
-}
-
-.boxes:hover {
-  transform: scale(1.1);
-} */
-
 /* cards */
 
 .cards {
@@ -148,6 +104,7 @@ h2 {
   margin: 0 auto;
   padding-top: 20px;
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-between;
 }
