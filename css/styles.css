@@ -4,6 +4,7 @@
   font-weight: 300;
   color: #3d3434;
   background-color: #ecebe8;
+  scroll-behavior: smooth;
 }
 
 .main-section {
@@ -43,7 +44,8 @@ a {
 header {
   font-weight: 400;
   display: flex;
-  padding: 15px 30px;
+  padding: 15px 0;
+  padding-right: 45px;
 }
 
 header > p {
@@ -56,6 +58,24 @@ header > p {
 
 .header-links a {
   text-decoration: none;
+  position: relative;
+}
+
+.header-links a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3d3434;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.header-links a:hover:after {
+  transform: scaleX(1);
 }
 
 .left-side,
@@ -77,7 +97,7 @@ h2 {
 
 .about-text {
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 70%;
   font-size: 22px;
   width: 27%;
@@ -146,7 +166,7 @@ h4 {
 /* footer */
 
 footer {
-  padding: 12px 30px;
+  padding: 14px 45px;
   font-size: 15px;
   font-weight: 500;
   display: flex;
@@ -156,10 +176,21 @@ footer {
   bottom: 0px;
 }
 
-footer a {
+.footer-links a {
   text-decoration: none;
 }
 
 .social-links .fa-linkedin {
   margin-right: 20px;
+}
+
+.footer-links,
+.social-links i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-links:hover,
+.social-links i:hover {
+  transform: scale(0.92);
+  opacity: 90%;
 }
