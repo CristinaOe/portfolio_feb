@@ -28,7 +28,7 @@ h2 {
 
 h2 {
   float: right;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 h3 {
@@ -37,6 +37,9 @@ h3 {
   text-transform: uppercase;
 }
 
+a {
+  cursor: pointer;
+}
 header {
   font-weight: 400;
   display: flex;
@@ -95,7 +98,7 @@ h2 {
 }
 
 /* projects */
-
+/* 
 .container {
   width: 80%;
   margin: 0 auto;
@@ -136,6 +139,51 @@ h2 {
 
 .boxes:hover {
   transform: scale(1.1);
+} */
+
+/* cards */
+
+.cards {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.card img {
+  height: 15rem;
+  object-fit: cover;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  margin-top: -5px;
+}
+
+.container > p,
+.container > h4 {
+  background-color: #fff;
+  padding: 7px 16px;
 }
 
 /* footer */
