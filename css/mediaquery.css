@@ -63,14 +63,14 @@
   /* footer */
   footer {
     font-size: 10px;
-    padding: 0;
+    padding: 8px 15px;
+    justify-content: right;
   }
   .social-links .fa-linkedin {
     margin: 0;
   }
 
-  .social-links,
-  .footer-links {
+  .social-links .footer-links {
     margin-right: 15px;
   }
 }
