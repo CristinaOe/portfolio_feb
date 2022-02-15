@@ -27,7 +27,8 @@
 
   .about-text {
     margin-right: 15px;
-    font-size: 11px;
+    font-size: 10px;
+    line-height: 15px;
     max-width: 40%;
     top: 30%;
     left: 55%;
@@ -46,7 +47,9 @@
 
   .card {
     width: 12rem;
-    margin-bottom: 30px;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
   .card img {

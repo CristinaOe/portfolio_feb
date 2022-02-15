@@ -12,7 +12,7 @@
 }
 
 .project-section {
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .main-section,
