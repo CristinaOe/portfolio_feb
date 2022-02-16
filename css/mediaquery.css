@@ -1,3 +1,35 @@
+@media only screen and (max-width: 1024px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 90px;
+  }
+  .main-section,
+  .project-section {
+    padding: 0px 20px;
+  }
+  .cris-img {
+    max-width: 400px;
+  }
+  .header {
+    padding-right: 20px;
+  }
+
+  .about-text {
+    font-size: 18px;
+    left: 60%;
+    line-height: 25px;
+    max-width: 40%;
+    margin-right: 20px;
+  }
+
+  /* cards */
+
+  .card {
+    width: 17rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .main-section,
   .project-section {
@@ -73,37 +105,5 @@
   .social-links,
   .footer-links {
     margin-right: 15px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  h1,
-  h2,
-  h3 {
-    font-size: 90px;
-  }
-  .main-section,
-  .project-section {
-    padding: 0px 20px;
-  }
-  .cris-img {
-    max-width: 400px;
-  }
-  .header {
-    padding-right: 20px;
-  }
-
-  .about-text {
-    font-size: 18px;
-    left: 60%;
-    line-height: 25px;
-    max-width: 40%;
-    margin-right: 20px;
-  }
-
-  /* cards */
-
-  .card {
-    width: 17rem;
   }
 }
