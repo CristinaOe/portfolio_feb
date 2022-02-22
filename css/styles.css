@@ -29,7 +29,7 @@ h2 {
 
 h2 {
   float: right;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -78,11 +78,6 @@ header > p {
   transform: scaleX(1);
 }
 
-.left-side,
-h2 {
-  line-height: 0.9;
-}
-
 .block-text {
   font-weight: 500;
   display: block;
@@ -95,12 +90,23 @@ h2 {
   margin-left: 10px;
 }
 
+.left-side,
+h2 {
+  line-height: 0.9;
+}
+
+.right-side {
+  position: relative;
+  height: 30px;
+}
+
 .about-text {
+  display: flex;
   position: absolute;
-  top: 47%;
-  left: 70%;
+  bottom: 20px;
+  right: 0px;
   font-size: 22px;
-  max-width: 27%;
+  width: 27%;
   text-align: justify;
 }
 
