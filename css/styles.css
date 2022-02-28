@@ -106,7 +106,7 @@ h2 {
   bottom: 20px;
   right: 0px;
   font-size: 22px;
-  width: 27%;
+  max-width: 27%;
   text-align: justify;
 }
 
