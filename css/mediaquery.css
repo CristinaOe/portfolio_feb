@@ -58,12 +58,9 @@
   }
 
   .about-text {
-    margin-right: 15px;
+    width: 40%;
     font-size: 10px;
     line-height: 15px;
-    max-width: 40%;
-    top: 30%;
-    left: 55%;
   }
 
   .arrow {
