@@ -18,9 +18,9 @@ for (let i = 0; i < title.length; i++) {
   cards.innerHTML =
     ` <div class="card">
         <a href=${website[i]} target="_blank"><img src="images/${title[i]}.png" alt="Avatar" style="width:100%"></a>
-        <div class="container">
-          <h4>${title[i]}</h4>
-          <p>${description[i]}</p>
+        <div class="card-info">
+          <h4 class="card-title">${title[i]}</h4>
+          <p class="card-desc">${description[i]}</p>
         </div>
       </div>` + cardContent;
 }

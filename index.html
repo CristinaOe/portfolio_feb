@@ -7,7 +7,7 @@
     <title>Frontend Developer based in Berlin</title>
 
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/mediaquery.css">
+    <!-- <link rel="stylesheet" href="css/mediaquery.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,14 +22,16 @@
   <body>
     <header class="header">
       <p>Based in Berlin</p>
-      <div class="header-links">
-        <a href="#my-work" class="work-link">Work</a>
-        <a href="mailto:crisoechsle@gmail.com">Contact</a>
+      <div class="nav">
+        <ul>
+          <li><a href="#projects" class="work-link">Work</li></a>
+          <li><a href="mailto:crisoechsle@gmail.com">Contact</li></a>
+        </ul>
       </div>
     </header>
-    <section class="main-section">
-      <main>
-        <div class="left-side">
+    <div class="container">
+     
+        <div class="about col-1">
           <h1>Frontend <span class="block-text">Developer</span></h1>
           <img
             src="images/cris-helados.jpg"
@@ -37,7 +39,7 @@
             class="cris-img"
           />
         </div>
-        <div class="right-side">
+        <div class="about col-2">
           <p class="about-text">
             I am fascinated by all that can be achieved by coding. I love the
             moment of finding the solution to that code that causes you a
@@ -48,19 +50,19 @@
           </h2>
         </div>
         <div class="arrow">
-          <a href="#my-work"><i class="fas fa-arrow-down fa-5x"></i></a>
+          <a href="#projects"><i class="fas fa-arrow-down fa-5x"></i></a>
           <p class="projects-text">projects</p>
         </div>
-      </main>
-    </section>
-    <section class="project-section" id="my-work">
+    
+    </div>
+    <div class="container" id="projects">
       <h3>My work</h3>
       <!-- projects -->
       <div class="cards">
         
       </div>
-      </div>
-     </section>
+    
+     
       <footer>
         <p class="footer-links">
           <a
@@ -72,7 +74,7 @@
         <p class="footer-links">
           <a href="cristina-oechsle-resume.pdf" target="_blank">resume</a>
         </p>
-        <div class="social-links">
+        <div class="footer-social-links">
           <a href="https://www.linkedin.com/in/cristina-oechsle/" target="blank"
             ><i class="fab fa-linkedin fa-lg"></i
           ></a>
@@ -81,6 +83,7 @@
           ></a>
         </div>
       </footer>
+    </div>
     </section>
     <script src="index.js" type="text/javascript"></script>
   </body>
