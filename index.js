@@ -1,14 +1,21 @@
-const title = ["Clara y Romero", "Tunap", "Rent a camp"];
+const title = [
+  "Clara y Romero",
+  "Tunap",
+  "Rent a camp",
+  "Color Scheme Generator",
+];
 const description = [
   "Website for Clara y Romero, a sustainable clothing brand. Created with Wordpress and Elementor plugin.",
   "Website for Tunap Argentina, car additives brand. Created with Wordpress.",
   "Platform to rent a tent. Airbnb clone created with Ruby on Rails. ",
+  "Project created with the color API using HTML, CSS and JS",
 ];
 
 const website = [
   "https://clarayromero.com/",
   "https://tunap.com.ar/",
   "https://rent-acamp.herokuapp.com/",
+  "https://cristinaoe.github.io/colorschemegenerator/",
 ];
 
 const cards = document.querySelector(".cards");
