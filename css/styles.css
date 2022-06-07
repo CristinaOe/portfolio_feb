@@ -154,8 +154,12 @@ img {
 }
 
 .fa-arrow-down {
-  transform: scale(0.8);
+  transition: transform 250ms ease-in-out 25ms;
   color: black;
+}
+
+.fa-arrow-down:hover {
+  transform: translateY(10px);
 }
 
 .projects-text {
@@ -228,7 +232,7 @@ img {
 .card {
   margin: 0 auto;
   margin-bottom: 3em;
-  width: 18rem;
+  width: 18.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: #fff;
