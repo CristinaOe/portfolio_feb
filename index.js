@@ -4,6 +4,7 @@ const title = [
   "Rent a camp",
   "Color Scheme Generator",
   "Watchlist",
+  "Travel journal",
 ];
 const description = [
   "Website for Clara y Romero, a sustainable clothing brand. Created with Wordpress and Elementor plugin.",
@@ -11,6 +12,7 @@ const description = [
   "Platform to rent a tent. Airbnb clone created with Ruby on Rails. ",
   "Project created with the color API using HTML, CSS and JS.",
   "Watchlist created using HTML, CSS and JS.",
+  "Project created with React",
 ];
 
 const website = [
@@ -19,6 +21,7 @@ const website = [
   "https://rent-acamp.herokuapp.com/",
   "https://cristinaoe.github.io/colorschemegenerator/",
   "https://cristinaoe.github.io/watchlist",
+  "https://cristinaoe.github.io/traveljournal/",
 ];
 
 const cards = document.querySelector(".cards");
